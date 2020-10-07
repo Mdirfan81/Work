@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+
+    <style>
+        body
+        {
+            padding: 0px;
+            margin: 0px;
+            justify-content: center;
+            position: absolute;
+            top: 0px;
+            right: 650px;
+
+        }
+    </style>
+</head>
+<body>
+        <form action="in.php" method="POST">
+            <h1> Student Form</h1>
+         <table>
+          <tr>
+           <td>Name :</td>
+           <td><input type="text" name="name" required></td>
+          </tr>
+          <tr>
+           <td> Total Marks :</td>
+           <td><input type="marks" name="marks" required></td>
+          </tr> 
+          <tr>
+           <td>Result :</td>
+           <td>
+            <input type="Result" name="result" required>
+           </td>
+          </tr>
+          <tr>
+           <td><input type="submit" value="Submit"></td>
+          </tr>
+         </table>
+        </form>
+</body>
+</html>
